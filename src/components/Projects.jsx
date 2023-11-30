@@ -11,7 +11,7 @@ const Projects = () => {
         <h2 className='text-6xl' id='projects'>
             Projects
         </h2>
-        <div className='flex flex-col space-y-12'>
+        <div className='flex flex-col space-y-12 gap-9 py-[10vh]'>
           <Card tittle="Ricklopedia" style="flex-row-reverse" description="Ricklopedia is a personal project created with react in which I use the rick and morty api, showing filtered and random characters." image={ricklopedia} link={"https://rick-morty-steel.vercel.app"}/>
           <Card tittle="ESP32 Smart Home" description="Using an ESP32(wifi-module) as a receptor brings you a remotre controll from your phone, where you would turn off/on your ligths and more." image={es32}/>
           <Card tittle="WOK" style="flex-row-reverse" description="Work in progress" image={wok}/>
