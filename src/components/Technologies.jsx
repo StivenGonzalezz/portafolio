@@ -7,7 +7,7 @@ import react from "../assets/react.png"
 
 const Technologies = () => {
   return (
-    <div className='h-[80vh] text-6xl text-white text-center justify-evenly py-[5vh]'>
+    <div className='h-[80vh] text-6xl text-white text-center justify-evenly py-[15vh]'>
       <h2 >Technologies</h2>
       <div className='grid w-[65vw] h-[10vh] grid-cols-3 gap-8 items-center mt-[15vh] ml-[8vh]'>
         <img src={javaIcon} alt="" />
