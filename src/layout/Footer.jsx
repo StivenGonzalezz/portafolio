@@ -4,6 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { MdMarkEmailUnread } from "react-icons/md";
 
 const Footer = () => {
+  
   return (
     <div className='h-[5vh]'>
       <ul className='flex justify-evenly ' >
