@@ -5,11 +5,12 @@ import Technologies from '../components/Technologies'
 
 const Body = () => {
   return (
-    <>
-      <About/>
-      <Projects/>
-      <Technologies/>
-    </>
+    <div className='snap-y snap-mandatory relative w-full h-full overflow-auto'> 
+        <div className='snap-center'><About/></div>
+        <div className='snap-center'><Projects/></div>
+        <div className='snap-center'><Technologies/></div>
+    </div>
+     
   )
 }
 

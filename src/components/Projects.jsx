@@ -7,8 +7,8 @@ import wok from '../assets/wok.jpeg'
 
 const Projects = () => {
   return (
-    <div className='h-[80vh] w-full text-white flex flex-col items-center justify-evenly'>
-        <h2 className='text-6xl' id='projects'>
+    <div className='h-full w-full text-white flex flex-col items-center justify-evenly '>
+        <h2 className='text-6xl pt-[5vh]' id='projects'>
             Projects
         </h2>
         <div className='flex flex-col space-y-24 mt-[5vh]'>
