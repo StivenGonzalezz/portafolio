@@ -5,6 +5,10 @@ import html from "../assets/htmlIcon.webp"
 import css from "../assets/cssIcon.webp"
 import react from "../assets/react.png"
 import tailwind from "../assets/tailwind.png"
+import git from "../assets/git.svg"
+import sceneBuilder from "../assets/sceneBuilder.webp"
+import terminal from "../assets/terminal.webp"
+import arduino from "../assets/arduino.png"
 
 const Technologies = () => {
   return (
@@ -17,6 +21,11 @@ const Technologies = () => {
         <img src={css} alt="" />
         <img src={react} alt="" />
         <img src={tailwind} alt="" />
+        <img src={git} alt="" />
+        <img src={sceneBuilder} alt="" />
+        <img src={terminal} alt="" />
+        <img src={arduino} alt="" />
+        
       </div>
       
     </div>
