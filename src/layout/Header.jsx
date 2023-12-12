@@ -1,9 +1,16 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import logo from '../assets/logo.jpeg'
+import Aos from "aos";
+import 'aos/dist/aos.css'
+
 
 const Header = () => {
 
   const [estilo,setEstilo] = useState("")
+
+  useEffect(()=>{
+    Aos.init()
+  },[])
 
   window.addEventListener("scroll", function(){
       // let header = document.getElementById("header")
@@ -15,8 +22,8 @@ const Header = () => {
   })
 
   return (
-    <div className='relative '>
-      <header id='header' className={` ${estilo} text-2xs transition-all ease-in-out duration-500 w-full font-bold text-white flex z-10 bg-clip-padding backdrop-filter backdrop-blur-sm rounded-sm`}>
+    <div  className='relative '>
+      <header data-aos="fade-down" id='header' className={` ${estilo} text-2xs transition-all ease-in-out duration-500 w-full font-bold text-white flex z-10 bg-clip-padding backdrop-filter backdrop-blur-sm rounded-sm`}>
           <nav className='w-full'>
             <ul className='flex w-full space-x-3 mt-[3%] ml-[5%]'>
               <li><a href="#about">About me</a></li>

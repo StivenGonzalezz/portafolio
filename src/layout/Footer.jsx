@@ -6,7 +6,7 @@ import { MdMarkEmailUnread } from "react-icons/md";
 const Footer = () => {
   
   return (
-    <div className='h-[5vh]'>
+    <div data-aos="fade-up" data-aos-duration="20000" className='h-[5vh]'>
       <ul className='flex justify-evenly ' >
         <li><a href="https://github.com/StivenGonzalezz"><FaGithub className='text-white text-5xl'/></a></li>
         <li><a href="https://www.linkedin.com/in/stiven-gonzalez-217526281/"><FaLinkedin className='text-white text-5xl'/></a></li>

@@ -9,22 +9,27 @@ import git from "../assets/git.svg"
 import sceneBuilder from "../assets/sceneBuilder.webp"
 import terminal from "../assets/terminal.webp"
 import arduino from "../assets/arduino.png"
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
 const Technologies = () => {
+
+ 
+
   return (
     <div id='technologies' className=' h-full w-full text-6xl justify-evenly pt-[10vh]'>
       <h2 className='text-white text-center' >Technologies</h2>
       <div className='grid grid-cols-3 h-[80vh] gap-5 items-center py-[15vh] px-[5vh]'>
-        <img src={javaIcon} alt="" />
-        <img src={html} alt="" />
-        <img src={javascIcon} alt="" />
-        <img src={css} alt="" />
-        <img src={react} alt="" />
-        <img src={tailwind} alt="" />
-        <img src={git} alt="" />
-        <img src={sceneBuilder} alt="" />
-        <img src={terminal} alt="" />
-        <img src={arduino} alt="" />
+        <img data-aos="zoom-in" src={javaIcon} alt="" />
+        <img data-aos="zoom-in" src={html} alt="" />
+        <img data-aos="zoom-in" src={javascIcon} alt="" />
+        <img data-aos="zoom-in" src={css} alt="" />
+        <img data-aos="zoom-in" src={react} alt="" />
+        <img data-aos="zoom-in" src={tailwind} alt="" />
+        <img data-aos="zoom-in" src={git} alt="" />
+        <img data-aos="zoom-in" src={sceneBuilder} alt="" />
+        <img data-aos="zoom-in" src={terminal} alt="" />
+        <img data-aos="zoom-in" src={arduino} alt="" />
         
       </div>
       
