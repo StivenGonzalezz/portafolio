@@ -18,7 +18,7 @@ const Technologies = () => {
 
   return (
     <div id='technologies' className=' h-full w-full text-6xl justify-evenly pt-[10vh]'>
-      <h2 className='text-white text-center' >Technologies</h2>
+      <h2 data-aos="zoom-out" className='text-white text-center' >Technologies</h2>
       <div className='grid grid-cols-3 h-[80vh] gap-5 items-center py-[15vh] px-[5vh]'>
         <img data-aos="zoom-in" src={javaIcon} alt="" />
         <img data-aos="zoom-in" src={html} alt="" />
